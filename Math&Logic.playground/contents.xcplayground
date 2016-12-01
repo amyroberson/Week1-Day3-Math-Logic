@@ -3,5 +3,7 @@
     <pages>
         <page name='Startupizer'/>
         <page name='FizzBuzz'/>
+        <page name='DivideThyself'/>
+        <page name='work'/>
     </pages>
 </playground>
