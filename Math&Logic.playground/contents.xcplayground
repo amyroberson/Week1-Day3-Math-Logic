@@ -5,5 +5,7 @@
         <page name='FizzBuzz'/>
         <page name='DivideThyself'/>
         <page name='work'/>
+        <page name='FizzBuzz2'/>
+        <page name='FizzBuzz3'/>
     </pages>
 </playground>
