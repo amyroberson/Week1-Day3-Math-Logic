@@ -12,35 +12,35 @@ func transform(n: Int) -> Answer {
     let remainderFizz = n % 3
     
     switch remainderBuzz {
-        case 0:
-            if remainderFizz == 0{
-                return .fizzBuzz
-            } else {
-                return .buzz
-            }
-        case 1:
-            if remainderFizz == 0 {
-                return .fizz
-            } else {
-                return .number(n)
-            }
-        case 2:
-            if remainderFizz == 0 {
-                return .fizz
-            } else {
-                return .number(n)
+    case 0:
+        if remainderFizz == 0 {
+            return .fizzBuzz
+        } else {
+            return .buzz
         }
-
-        case 3:
-            if remainderFizz == 0 {
-                return .fizz
-            } else {
-                return .number(n)
-        }
-        case 4:
+    case 1:
+        if remainderFizz == 0 {
+            return .fizz
+        } else {
             return .number(n)
-        default:
-            return .number(0)
+        }
+    case 2:
+        if remainderFizz == 0 {
+            return .fizz
+        } else {
+            return .number(n)
+        }
+        
+    case 3:
+        if remainderFizz == 0 {
+            return .fizz
+        } else {
+            return .number(n)
+        }
+    case 4:
+        return .number(n)
+    default:
+        return .number(0)
     }
 }
 

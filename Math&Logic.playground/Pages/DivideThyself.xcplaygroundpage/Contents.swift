@@ -22,7 +22,7 @@ func divideSelf(number: Int) -> Bool{
     let count = totalDigits - 1
     var remainingDigits = number
     
-    // assume the number is divisible
+    
     var isDivisible = true
     var i = 0
     while isDivisible && i < count - 1 {
@@ -44,9 +44,9 @@ func divideSelf(number: Int) -> Bool{
         
         remainingDigits = remainingDigits % placeholder
     }
-
-    return isDivisible
     
+    return isDivisible
+}
 /*   Commented out, but saved to show original idea 
      
      switch count {
@@ -82,7 +82,7 @@ func divideSelf(number: Int) -> Bool{
         case 10:
       }
  */
-}
+
 
 divideSelf(number: 0)
 divideSelf(number: 22222222222222)

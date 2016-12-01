@@ -16,7 +16,7 @@ func strtupzer(string: String) -> String {
         }
         
         if !consonant && x % 2 == 0 {
-        newString.append(i)
+            newString.append(i)
         }
         
         if consonant {
@@ -24,7 +24,7 @@ func strtupzer(string: String) -> String {
         }
         
         //switch consant, x % 2 == 0
-    
+        
     }
     return newString
 }
